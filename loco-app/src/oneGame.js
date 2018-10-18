@@ -16,12 +16,12 @@ class oneGame extends Component{
     )
   }
 */
-render() {
-  return (
-    <div>
-      <p>Hallå hallå</p>
-    </div>
-  )
-}
+  render() {
+    return (
+      <div>
+        <p>Hallå hallå</p>
+      </div>
+    )
+  }
 }
 export default oneGame
