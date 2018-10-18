@@ -1,0 +1,130 @@
+.container{
+    height: 100vh;
+}
+.PreviewScreen{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logoH{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+//iPhone 6,7&8 plus portrait
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : portrait) {
+    .PreviewScreen{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #logoH{
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+//iPhone 6,7&8 Plus landscape
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : landscape) {
+    .PreviewScreen{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #logoH{
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+//iPhone 6,7&8 portrait
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) {
+    .PreviewScreen{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #logoH{
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+//iPhone 6,7&8 landscpae
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) {
+    .PreviewScreen{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #logoH{
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+//iPhoneX portrait
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : portrait) {
+    .PreviewScreen{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #logoH{
+        height: 16vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+//iPhoneX landscape
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : landscape) {
+    .PreviewScreen{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #logoH{
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+ 
