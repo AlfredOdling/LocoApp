@@ -15,4 +15,5 @@ class oneGame extends Component{
   }
 }
 
+
 export default oneGame
