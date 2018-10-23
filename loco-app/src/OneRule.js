@@ -15,14 +15,14 @@ class OneRule extends Component{
     // knapp
     // ancor? scroll?
     render(){
-      let display = this.text
+/*      let display = this.text
 
       return (
 
         <div class = "game">
           <p>{display}</p>
         </div>
-
+*/
       )
 
   }
