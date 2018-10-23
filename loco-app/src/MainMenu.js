@@ -1,14 +1,27 @@
-import React, { Component } from 'react'
-import './styles/app.scss'
+import React, { Component } from 'react';
 
 class MainMenu extends Component {
   render() {
     return (
-      <div>
-        <p>Hallå hallå</p>
+      <div className="grid-container">
+        <div className="grid-item">
+          <p>F*CK THE DEALER</p>
+        </div>
+        <div className="grid-item">
+          <p>F*CK THE DEALER</p>
+        </div>
+        <div className="grid-item">
+          <p>F*CK THE DEALER</p>
+        </div>
+        <div className="grid-item">
+          <p>F*CK THE DEALER</p>
+        </div>
+        <div className="grid-item">
+          <p>F*CK THE DEALER</p>
+        </div>
       </div>
-    )
+    );
   }
 }
 
-export default MainMenu
+export default MainMenu;

@@ -6,13 +6,15 @@
   padding: 0;
 }
 
+$purple: rgb(98, 34, 81);
+
+html {
+  background-color: $purple;
+}
+
 $font-family: 'Montserrat', sans-serif;
 $font-family2: 'Open Sans', sans-serif;
-
-$light-black: rgb(49, 49, 49);
-$light-black: rgb(49, 49, 49);
-$nice-blue: rgb(23, 135, 251);
-$nice-blue-dark: rgb(0, 88, 181);
+$font-family: 'Arial', sans-serif;
 
 %flex-center {
   display: flex;
@@ -33,7 +35,7 @@ html {
 
 a {
   font-family: $font-family;
-  background-color: $nice-blue;
+  // background-color: $nice-blue;
   color: white;
   padding: 3px 6px 3px 6px;
 }
