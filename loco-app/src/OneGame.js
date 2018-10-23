@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+/*import React, {Component} from 'react'
 import './oneGameStyle.scss'
 import OneRule from './OneRule'
 
@@ -17,3 +17,4 @@ class OneGame extends Component {
   }
 }
 export default OneGame
+*/
