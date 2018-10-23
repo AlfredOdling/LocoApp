@@ -12,8 +12,8 @@ html {
   background-color: $purple;
 }
 
-// $font-family: 'Montserrat', sans-serif;
-// $font-family2: 'Open Sans', sans-serif;
+$font-family: 'Montserrat', sans-serif;
+$font-family2: 'Open Sans', sans-serif;
 $font-family: 'Arial', sans-serif;
 
 %flex-center {
@@ -27,6 +27,23 @@ $font-family: 'Arial', sans-serif;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-p {
+$purple: rgb(98, 34, 81);
+
+html {
+  background-color: $purple;
+}
+
+a {
   font-family: $font-family;
+  // background-color: $nice-blue;
+  color: white;
+  padding: 3px 6px 3px 6px;
+}
+
+h {
+  font-family: $font-family;
+}
+
+p {
+  font-family: $font-family2;
 }
