@@ -1,11 +1,11 @@
-/*import React, {Component} from 'react'
+import React, {Component} from 'react'
 import './oneGameStyle.scss'
 import OneRule from './OneRule'
 
 class OneGame extends Component {
 
   render(){
-    let display = this.state.text;
+    let display = this.text;
 
     return (
 
@@ -17,4 +17,3 @@ class OneGame extends Component {
   }
 }
 export default OneGame
-*/

@@ -10,9 +10,9 @@ class App extends Component {
     return (
 
       <div>
-        <PreviewScreen />
-        <MainMenu />
-        //<OneGame />
+        //<PreviewScreen />
+        //<MainMenu />
+        <OneGame />
       </div>
     );
   }
