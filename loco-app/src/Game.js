@@ -11,7 +11,7 @@ export default class Game extends Component {
     let textToRender = texts.map((textObj, i) => {
       return (
         <div key={i} className='slideContainer'>
-          <div className='slide'>
+          <div className='slides'>
             {textObj}
           </div>
         </div>

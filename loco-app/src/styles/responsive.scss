@@ -6,6 +6,10 @@
    p {
       font-size: calc(#{$px} * 20px);
    }
+
+   .carousel .slide {
+    padding: 0 30vw 0 30vw;
+  }
  }
 
 @media screen and (max-width: 1000px) {
@@ -22,6 +26,10 @@
    p {
       font-size: calc(#{$px} * 18px);
    }
+
+   .carousel .slide {
+    padding: 0 15vw 0 15vw;
+  }
  }
 
 @media screen and (max-width: 650px) {
@@ -43,5 +51,9 @@
 
   p {
     font-size: calc(#{$px} * 16px);
+  }
+
+  .carousel .slide {
+    padding: 0 10vw 0 10vw;
   }
  }
