@@ -1,0 +1,47 @@
+@media screen and (min-width: 1000px) {
+   #grid-container {
+      grid-template-columns: auto auto auto auto;
+   }
+
+   p {
+      font-size: calc(#{$px} * 20px);
+   }
+ }
+
+@media screen and (max-width: 1000px) {
+   #grid-container {
+      grid-template-columns: auto auto auto;
+      grid-gap: 3vw;
+    }
+    
+    .grid-item {
+      height: 25vw;
+      width: 25vw;
+    }
+
+   p {
+      font-size: calc(#{$px} * 18px);
+   }
+ }
+
+@media screen and (max-width: 650px) {
+
+  #fuckTheDealer, #hetspong, #jagharaldrig, #pekleken, #ringoffire {
+    height: 60*0.27vw;
+  }
+
+  #grid-container {
+    grid-template-columns: auto auto;
+    grid-gap: 5vw;
+    margin-top: 5vw;
+  }
+  
+  .grid-item {
+    height: 42vw;
+    width: 42vw;
+  }
+
+  p {
+    font-size: calc(#{$px} * 16px);
+  }
+ }

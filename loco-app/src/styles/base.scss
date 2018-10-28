@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,800');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
 * {
   margin: 0;
@@ -7,24 +6,24 @@
 }
 
 $purple: rgb(98, 34, 81);
+$gold: rgb(255, 214, 145);
+$whiteOpacity: rgba(255, 255, 255, 0.13);
+
+$px: "(0.8px + 0.05335vmin)"; // Responsive pixel
+//example: width: calc(#{$px} * your_px);
 
 html {
   background-color: $purple;
 }
 
-$font-family: 'Montserrat', sans-serif;
-$font-family2: 'Open Sans', sans-serif;
-$font-family: 'Arial', sans-serif;
+$font-family-p: 'Arial', sans-serif;
 
 %flex-center {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-}
-
-%box-shadow {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: antiquewhite;
 }
 
 $purple: rgb(98, 34, 81);
@@ -33,17 +32,7 @@ html {
   background-color: $purple;
 }
 
-a {
-  font-family: $font-family;
-  // background-color: $nice-blue;
-  color: white;
-  padding: 3px 6px 3px 6px;
-}
-
-h {
-  font-family: $font-family;
-}
-
 p {
-  font-family: $font-family2;
+  font-family: $font-family-p;
+  color: $gold;
 }

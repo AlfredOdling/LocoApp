@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './styles/app.scss';
-import locoLogo from './LocoLogo.svg';
+import locoLogo from './assets/LocoLogo.svg';
 import './styles/PreviewScreen.scss';
 
 class PreviewScreen extends Component {

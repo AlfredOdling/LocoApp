@@ -1,20 +1,39 @@
-
 import React, { Component } from 'react';
 import './styles/app.scss';
-import MainMenu from './MainMenu';
-import OneGame from './OneGame';
 import PreviewScreen from './PreviewScreen';
+import Games from './Games'
+import Game from './Game'
+import locoLogo from './assets/LocoLogo.svg';
 
 class App extends Component {
-  render() {
-    return (
+  state = {
+    showGame: false,
+    game: {}
+  }
 
+  toggleShowGame = game => {
+    this.setState(prevState => ({
+      showGame: !prevState.showGame,
+      game
+    }))
+  }
+
+  render() {
+    const { showGame, game } = this.state
+    // {/*<PreviewScreen />*/}
+    return (
       <div>
-        //<PreviewScreen />
-        //<MainMenu />
-        <OneGame />
+        {
+          showGame ?
+          <Game game={game} toggleShowGame={this.toggleShowGame}/> 
+          :
+          <div id='appContainer'>
+            <img id='logo' src={locoLogo} alt="Logo" />
+            <Games toggleShowGame={this.toggleShowGame} />
+          </div>
+        }
       </div>
-    );
+    )
   }
 }
 
