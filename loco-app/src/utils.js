@@ -109,8 +109,7 @@ export const getGames = () => {
       ),
       (
         <p>
-        Story time
-        Om alla pekar på samma person bör den spelaren berätta historien om påståendet. 
+          Story time: Om alla pekar på samma person bör den spelaren berätta historien om påståendet. 
         </p>
       ),
     ]
