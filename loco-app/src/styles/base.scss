@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,600');
 
 * {
   margin: 0;
@@ -35,5 +35,11 @@ html {
 p {
   font-family: $font-family;
   font-weight: 500;
+  color: $gold;
+}
+
+h1 {
+  font-family: $font-family;
+  font-weight: 600;
   color: $gold;
 }

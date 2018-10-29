@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
-import { Carousel } from "react-responsive-carousel"
-import "react-responsive-carousel/lib/styles/carousel.min.css"
+import { Carousel } from 'react-responsive-carousel'
+import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
 export default class Game extends Component {
-
   renderText = () => {
     const { game } = this.props
     const { texts } = game
@@ -27,7 +26,7 @@ export default class Game extends Component {
     return (
       <div>
       <div id='button' onClick={() => toggleShowGame()}>
-        <img src={require('./assets/back.svg')} alt="back" />
+        <img src={require('./assets/back.svg')} alt='back' />
         <p>Tillbaka</p>
       </div>
 

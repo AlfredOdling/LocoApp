@@ -7,10 +7,14 @@ export const getGames = () => {
     title: 'F**K THE DEALER',
     texts: [
       (
-        <p>
-          En spelare är ansvarig för kortleken och kallas dealer. Dealern ber spelaren till höger gissa ett värde på översta kortet. Spelaren har två försök att gissa rätt. Om spelaren gissar rätt eller misslyckas på sista försöket läggs kortet på bordet med värdet synligt. Kort med samma värde placeras på varandra.
-          Korten på bordet bör ligga i storleksordning.
-        </p>
+        <div>
+          <h1>F**K THE DEALER</h1>
+          <br/>
+          <p>
+            En spelare är ansvarig för kortleken och kallas dealer. Dealern ber spelaren till höger gissa ett värde på översta kortet. Spelaren har två försök att gissa rätt. Om spelaren gissar rätt eller misslyckas på sista försöket läggs kortet på bordet med värdet synligt. Kort med samma värde placeras på varandra.
+            Korten på bordet bör ligga i storleksordning.
+          </p>
+        </div>
       ),
       (
         <p>
@@ -33,10 +37,14 @@ export const getGames = () => {
     title: 'HETSPONG',
     texts: [
       (
-        <p>
-          Minst 12 muggar ställs i mitten av bordet i par på en linje. Fyll alla muggar med lämplig mängd av valfri dryck. Alla spelare placerar sig runt bordet.
-          Två spelare som står långt bort ifrån varandra runt bordet börjar med varsin pingisboll och varsin tom mugg. Spelet går ut på att pricka den tomma muggen genom att studsa pingisbollen i bordet.
-        </p>
+        <div>
+          <h1>HETSPONG</h1>
+          <br/>
+          <p>
+            Minst 12 muggar ställs i mitten av bordet i par på en linje. Fyll alla muggar med lämplig mängd av valfri dryck. Alla spelare placerar sig runt bordet.
+            Två spelare som står långt bort ifrån varandra runt bordet börjar med varsin pingisboll och varsin tom mugg. Spelet går ut på att pricka den tomma muggen genom att studsa pingisbollen i bordet.
+          </p>
+        </div>
       ),
       (
         <p>
@@ -64,11 +72,15 @@ export const getGames = () => {
     title: 'JAG HAR ALDRIG',
     texts: [
       (
-        <p>
-        En spelar i taget säger: ” Jag har aldrig…” följt av ett påstående.
-        Varje person dricker om de HAR gjort det.
-        Om man inte har gjort påståendet men man VILL göra det ställer man koppen på huvudet. 
-        </p>
+        <div>
+          <h1>JAG HAR ALDRIG</h1>
+          <br/>
+          <p>
+          En spelar i taget säger: ” Jag har aldrig…” följt av ett påstående.
+          Varje person dricker om de HAR gjort det.
+          Om man inte har gjort påståendet men man VILL göra det ställer man koppen på huvudet. 
+          </p>
+        </div>
       ),
       (
         <p>
@@ -85,11 +97,15 @@ export const getGames = () => {
     title: 'PEKLEKEN',
     texts: [
       (
-        <p>
-        En spelare säger ett påstående som börjar med ”Vem i rummet…” och räknar till 3.
-        På tre pekar alla spelare i rummet på den spelaren påståendet passar bäst in på.
-        Alla dricker så många pekningar de får.
-        </p>
+        <div>
+          <h1>PEKLEKEN</h1>
+          <br/>
+          <p>
+          En spelare säger ett påstående som börjar med ”Vem i rummet…” och räknar till 3.
+          På tre pekar alla spelare i rummet på den spelaren påståendet passar bäst in på.
+          Alla dricker så många pekningar de får.
+          </p>
+        </div>
       ),
       (
         <p>
@@ -106,10 +122,14 @@ export const getGames = () => {
     title: 'RING OF FIRE',
     texts: [
       (
-        <p>
-        Ställ en mugg i mitten, denna kallas kungen. Placera alla korten från en kortlek runt kungen i en sluten cirkel. Varje spelare häller en skvätt av sin dryck i muggen. Spelaren som börjar drar ett kort från cirkeln. Spelaren läser upp och utför regeln för kortet. 
-        Om en spelare bryter cirkeln dricker spelaren kungen.
-        </p>
+        <div>
+          <h1>RING OF FIRE</h1>
+          <br/>
+          <p>
+          Ställ en mugg i mitten, denna kallas kungen. Placera alla korten från en kortlek runt kungen i en sluten cirkel. Varje spelare häller en skvätt av sin dryck i muggen. Spelaren som börjar drar ett kort från cirkeln. Spelaren läser upp och utför regeln för kortet. 
+          Om en spelare bryter cirkeln dricker spelaren kungen.
+          </p>
+        </div>
       ),
       (
         <p>
@@ -159,12 +179,77 @@ export const getGames = () => {
     ]
   }
 
+  const overunder = {
+    iconSrc: require('./assets/gameIcons/overunder.svg'),
+    id: 'overunder',
+    title: 'ÖVER/UNDER',
+    texts: [
+      (
+        <div>
+          <h1>ÖVER/UNDER</h1>
+          <br/>
+          <p>
+            En spelare ansvarar för kortleken och kallas dealer. Dealern ber spelaren till höger gissa värdet 
+            på översta kortet. Dealern tittar på kortet, om värdet är korrekt får dealern dricka 6 klunkar. Om 
+            värdet på kortet är högre/lägre får spelaren gissa på ett kort som är högre/lägre. Gissar spelaren fel 
+            igen får den dricka mellanskillnaden mellan det översta kortet och det sista kortet spelaren gissade på. 
+            Om spelaren gissar rätt på andra försöket får dealern dricka 3 klunkar. Spelet fortsätter moturs. Om 
+            dealern klarar sig från att dricka efter 3 omgångar skickas kortleken medurs.
+          </p>
+        </div>
+      ),
+    ]
+  }
+
+  const bussen = {
+    iconSrc: require('./assets/gameIcons/bussen.svg'),
+    id: 'bussen',
+    title: 'BUSSEN',
+    texts: [
+      (
+        <div>
+          <h1>BUSSEN</h1>
+          <br/>
+          <p>
+           Placera ut 9 kort, nedåtvända på ett bord så att de skapar en 3×3-formation. Fördela resten av korten jämt 
+           bland spelarna. Överblivna kort läggs åt sidan.
+          </p>
+        </div>
+        ),
+        (
+          <p>
+            En åt gången vänder dealern upp ett kort. Om en spelare har ett kort på hand som matchar ett kort 
+            som vänds upp, placerar de det kortet ovanpå detta. För varje kort de placerar får de nominera en spelare 
+            som får dricka två klunkar. Fortsätt tills alla korten på bordet har vänts upp.
+          </p>
+        ),
+        (
+        <p>
+          Dealern blandar sedan alla korten som lagts på bordet och lägger återigen upp 9 stycken nedåtvända kort på 
+          bordet så att de bildar en diamant (1 – 2 – 3 – 2 – 1).
+          Nu ska alla spelare som fortfarande har kort på handen ”åka bussen”. Alla spelare som åker bussen spelar nu tillsammans. 
+          Målet är nu att vända ett kort i änden av diamanten, och sedan vända det intilliggande kortet för att ta sig till 
+          andra sidan av diamanten.
+          </p>
+        ),
+        (
+        <p>
+          Om ett klätt kort (Knekt, Hjärter eller Kung) eller ett Ess vänds upp måste alla spelare som åker buss dricka tre klunkar. 
+          Spelet är slut när spelarna lyckats ta sig från ena sidan, till den andra av diamanten utan att vända upp ett klätt kort eller 
+          Ess. Då blandas kortleken och spelet börjar om från början.
+        </p>
+      ),
+    ]
+  }
+
   const content = [
     fuckTheDealer,
     hetspong,
     jagharaldrig,
     pekleken,
     ringoffire,
+    overunder,
+    bussen,
   ]
 
   return content

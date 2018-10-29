@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
-import './styles/app.scss';
-import PreviewScreen from './PreviewScreen';
+import React, { Component } from 'react'
+import './styles/app.scss'
 import Games from './Games'
 import Game from './Game'
-import locoLogo from './assets/LocoLogo.svg';
+import locoLogo from './assets/LocoLogo.svg'
 
 class App extends Component {
   state = {
@@ -20,7 +19,7 @@ class App extends Component {
 
   render() {
     const { showGame, game } = this.state
-    // {/*<PreviewScreen />*/}
+
     return (
       <div>
         {
@@ -37,4 +36,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App

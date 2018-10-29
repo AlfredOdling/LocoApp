@@ -1,10 +1,10 @@
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1100px) {
    #grid-container {
       grid-template-columns: auto auto auto auto;
    }
 
    p {
-      font-size: calc(#{$px} * 20px);
+      font-size: 20px;
    }
 
    .carousel .slide {
@@ -12,7 +12,7 @@
   }
  }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
    #grid-container {
       grid-template-columns: auto auto auto;
       grid-gap: 3vw;
@@ -24,7 +24,7 @@
     }
 
    p {
-      font-size: calc(#{$px} * 18px);
+      font-size: 18px;
    }
 
    .carousel .slide {
@@ -32,9 +32,14 @@
   }
  }
 
-@media screen and (max-width: 650px) {
-
-  #fuckTheDealer, #hetspong, #jagharaldrig, #pekleken, #ringoffire {
+@media screen and (max-width: 750px) {
+  #fuckTheDealer, 
+  #hetspong, 
+  #jagharaldrig, 
+  #pekleken, 
+  #ringoffire, 
+  #overunder, 
+  #bussen {
     height: 60*0.27vw;
   }
 
@@ -50,10 +55,16 @@
   }
 
   p {
-    font-size: calc(#{$px} * 16px);
+    font-size: 16px;
   }
 
   .carousel .slide {
     padding: 0 10vw 0 10vw;
+  }
+ }
+
+ @media screen and (max-width: 400px) {
+  p {
+    font-size: 14px;
   }
  }
